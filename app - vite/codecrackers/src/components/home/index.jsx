@@ -74,7 +74,6 @@ const Home = () => {
                   activeTab === "fast" ? "bg-indigo-500 text-white" : "bg-gray-100 text-gray-700"
                 }`}
                 onClick={() => setActiveTab("fast")}
-                whileHover={{ backgroundColor: activeTab === "fast" ? "#4338ca" : "#e5e7eb" }}
               >
                 Fast Resolution
               </motion.button>
@@ -83,7 +82,6 @@ const Home = () => {
                   activeTab === "ai" ? "bg-indigo-500 text-white" : "bg-gray-100 text-gray-700"
                 }`}
                 onClick={() => setActiveTab("ai")}
-                whileHover={{ backgroundColor: activeTab === "ai" ? "#4338ca" : "#e5e7eb" }}
               >
                 Human + AI
               </motion.button>
@@ -170,7 +168,7 @@ const Home = () => {
           variants={fadeIn}
         >
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Start Your Learning Journey Today</h2>
-          <p className="text-xl text-gray-600 mb-8">Get your first 5 queries resolved absolutely free!</p>
+          <p className="text-xl text-gray-600 mb-8">Get your first query resolved absolutely free!</p>
           <motion.button
             className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-8 py-3 rounded-full font-medium text-lg shadow-lg"
             whileHover={{ scale: 1.05, boxShadow: "0 8px 25px rgba(79, 70, 229, 0.4)" }}

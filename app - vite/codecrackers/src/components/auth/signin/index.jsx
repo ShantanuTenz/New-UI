@@ -32,7 +32,7 @@ export default function SignInPage() {
         size: Math.random() * 5 + 5,
         speed: Math.random() * 0.5 + 0.1,
         angle: Math.random() * 360,
-        color: `rgba(76, 175, 80, ${Math.random() * 0.3 + 0.1})`
+        color: `rgba(99, 102, 241, ${Math.random() * 0.3 + 0.1})`
       });
     }
 
@@ -92,7 +92,7 @@ export default function SignInPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-50 to-blue-50 overflow-hidden">
+    <div className="flex items-center justify-center bg-gradient-to-b from-indigo-50 via-white to-indigo-50 min-h-screen overflow-hidden">
       <canvas ref={canvasRef} className="absolute inset-0" />
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -102,7 +102,7 @@ export default function SignInPage() {
       >
         <div className="bg-white bg-opacity-80 backdrop-blur-md rounded-lg p-8 shadow-lg">
           <div className="flex items-center justify-center mb-6">
-            <Leaf className="h-10 w-10 text-green-500" />
+            <Leaf className="h-10 w-10 text-[#7C39E7]" />
             <h2 className="text-2xl font-bold ml-2">Welcome Back</h2>
           </div>
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -132,19 +132,19 @@ export default function SignInPage() {
                 onChange={handleInputChange}
               />
             </div>
-            <Button type="submit" className="w-full bg-green-600 hover:bg-green-700">
+            <Button type="submit" className="w-full bg-[#7C39E7] hover:bg-indigo-700">
               <LogIn className="w-4 h-4 mr-2" />
               Sign In
             </Button>
           </form>
           <div className="mt-4 text-center">
-            <a href="#" className="text-sm text-green-600 hover:underline">
+            <a href="#" className="text-sm text-[#7C39E7] hover:underline">
               Forgot your password?
             </a>
           </div>
           <p className="mt-4 text-center text-sm text-gray-600">
             Don't have an account?{" "}
-            <a href="/signup" className="text-green-600 hover:underline">
+            <a href="/signup" className="text-[#7C39E7] hover:underline">
               Sign up
             </a>
           </p>

@@ -19,10 +19,10 @@ const Header = ({openStepsDialog}) => {
             <span>Codecrackers</span>
           </motion.div>
           <nav className="hidden md:flex space-x-4">
-            {["Home", "Courses", "Pricing", "About"].map((item) => (
+            {["Home", "Community", "Pricing", "About"].map((item) => (
               <motion.a
                 key={item}
-                href={`${item.toLowerCase()}`}
+                href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
                 className="text-white hover:text-indigo-200 transition-colors duration-200"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

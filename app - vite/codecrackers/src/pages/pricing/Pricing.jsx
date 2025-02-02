@@ -88,7 +88,7 @@ const Pricing = () => {
 
   const plans = [
     {
-      title: "Pro",
+      title: "Geek",
       price: "80",
       description: "Perfect for quick questions and individual learners",
       features: [
@@ -100,7 +100,7 @@ const Pricing = () => {
       badge: "MOST POPULAR",
     },
     {
-      title: "Team",
+      title: "Consistence",
       price: "200",
       description: "Ideal for small teams and collaborative learning",
       features: [

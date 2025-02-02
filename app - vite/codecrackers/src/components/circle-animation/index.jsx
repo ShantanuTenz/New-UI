@@ -99,7 +99,7 @@ const imagePaths = [
     src: git,
     name: "Git",
     description:
-      "A distributed version control system for tracking changes in source code during software development, enabling collaboration among developers.",
+      "A distributed VCS for tracking changes in source code during software development, enabling collaboration among developers.",
     color: "#F05032",
   },
   {
