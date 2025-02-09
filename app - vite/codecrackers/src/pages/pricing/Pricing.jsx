@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import { Check, Plus, Minus } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card"
-import Header from "../../components/header-start/Header"
+import Header from "../../components/Initial-Render/header-start/Header"
 
 const PricingOption = ({
   title,

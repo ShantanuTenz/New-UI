@@ -34,7 +34,7 @@ const CustomCursor = () => {
       setMousePosition({ x: e.clientX, y: e.clientY });
 
       if (currentTime - lastSparkleTime > 20) {
-        const newSparkles = Array.from({ length: getRandomInt(2, 5) }).map(() => ({
+        const newSparkles = Array.from({ length: getRandomInt(0, 1) }).map(() => ({
           id: Date.now() + Math.random(),
           x: getRandomInt(-20, 20),
           y: getRandomInt(-20, 20),
