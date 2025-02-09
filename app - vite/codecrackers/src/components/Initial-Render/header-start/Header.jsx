@@ -19,7 +19,7 @@ const Header = ({openStepsDialog}) => {
             <span>Codecrackers</span>
           </motion.div>
           <motion.nav
-            className="bg-black backdrop-blur-sm w-fit px-6 py-[1rem] rounded-full w-[30%] absolute left-[35%] top-[1.5rem] shadow-lg"
+            className="bg-black backdrop-blur-sm px-6 py-[1rem] rounded-full w-[30%] absolute left-[35%] top-[1.5rem] shadow-lg"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
